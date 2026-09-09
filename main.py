@@ -97,6 +97,24 @@ def handle_question(assistant: StudyAssistant, student_id: str):
     print(answer)
 
 
+def choose_difficulty(assistant: StudyAssistant, course_id: str) -> str:
+    levels = assistant.quiz_tool.available_difficulties(course_id)
+    if not levels:
+        return None
+
+    print("\nChoose a difficulty:")
+    options = levels + ["mixed (all levels)"]
+    for i, label in enumerate(options, start=1):
+        print(f"  {i}. {label.capitalize()}")
+
+    choice = clean_input(f"Enter choice (1-{len(options)}, default {len(options)}): ")
+    num = to_int(choice, default=len(options))
+    if num is None or not (1 <= num <= len(options)):
+        num = len(options)
+
+    return None if num == len(options) else levels[num - 1]
+
+
 def handle_quiz(assistant: StudyAssistant, student_id: str):
     course_id = choose_course(assistant)
     if not course_id:
@@ -105,10 +123,11 @@ def handle_quiz(assistant: StudyAssistant, student_id: str):
         print("No quiz available for this course yet.")
         return
 
+    difficulty = choose_difficulty(assistant, course_id)
     num_q = to_int(clean_input("How many questions? (default 5): "), default=5)
 
     assistant.enroll(student_id, course_id)
-    score, total = assistant.take_quiz(student_id, course_id, num_q)
+    score, total = assistant.take_quiz(student_id, course_id, num_q, difficulty)
     if total:
         pct = round((score / total) * 100, 1)
         print(f"📈 You scored {pct}% this attempt.")

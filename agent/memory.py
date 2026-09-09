@@ -58,10 +58,11 @@ class Memory:
         self.students[student_id]["question_history"].append(entry)
         self._save()
 
-    def log_quiz_result(self, student_id: str, course_id: str, score: int, total: int):
+    def log_quiz_result(self, student_id: str, course_id: str, score: int, total: int, difficulty: str = None):
         entry = {
             "timestamp": datetime.now().isoformat(timespec="seconds"),
             "course": course_id,
+            "difficulty": difficulty or "mixed",
             "score": score,
             "total": total,
             "percentage": round((score / total) * 100, 2) if total else 0

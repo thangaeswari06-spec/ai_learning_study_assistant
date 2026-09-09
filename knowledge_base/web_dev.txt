@@ -1,0 +1,15 @@
+Web development is the work involved in building and maintaining websites, generally split into front-end (what users see) and back-end (server-side logic). This course focuses on the front-end fundamentals: HTML, CSS, and JavaScript.
+
+HTML (HyperText Markup Language) is the standard markup language used to structure content on the web. A page is built from elements such as headings, paragraphs, links, images, and lists, each wrapped in tags like <h1>, <p>, <a>, and <img>. Elements can be nested to form the overall document structure.
+
+CSS (Cascading Style Sheets) is used to style HTML elements, controlling color, spacing, fonts, and layout. Selectors target elements by tag, class, or id, and rules are written as property-value pairs. The box model (margin, border, padding, content) describes how every element is sized and spaced on the page.
+
+Layout in CSS is commonly done with Flexbox and Grid. Flexbox arranges elements in a single row or column and distributes space between them, while Grid arranges elements into two-dimensional rows and columns, making it useful for full page layouts.
+
+JavaScript is a scripting language that adds interactivity to web pages. Variables are declared using let, const, or var, and functions can be defined using the function keyword or arrow function syntax. JavaScript supports conditionals, loops, arrays, and objects similar to other programming languages.
+
+The DOM (Document Object Model) is a tree-like representation of an HTML page that JavaScript can read and modify. Methods such as getElementById, querySelector, and addEventListener let a script select elements, change their content or styling, and respond to user actions like clicks.
+
+Responsive design ensures a website works well on different screen sizes, from phones to desktops. This is achieved using flexible layouts, relative units like percentages and rem, and CSS media queries that apply different styles based on the viewport width.
+
+Modern web development often uses build tools, package managers like npm, and frameworks or libraries such as React to manage larger applications, but understanding plain HTML, CSS, and JavaScript is the foundation for all of them.

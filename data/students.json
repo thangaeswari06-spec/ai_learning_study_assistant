@@ -1,34 +1,19 @@
 {
-    "thangaeswari06@gmail": {
+    "thangaeswari06@gmail.com": {
         "name": "Esu",
-        "created_at": "2026-09-09T15:48:39",
+        "created_at": "2026-09-09T21:15:47",
         "courses_enrolled": [
-            "python",
-            "java"
+            "web_dev"
         ],
         "question_history": [
             {
-                "timestamp": "2026-09-09T15:57:18",
+                "timestamp": "2026-09-09T21:16:18",
                 "course": "python",
-                "question": "how to download python",
+                "question": "what is python",
                 "answer_snippet": "Functions in Python are defined using the def keyword. A function can accept parameters, have default values, and return a value using the return stat..."
             }
         ],
-        "quiz_scores": [
-            {
-                "timestamp": "2026-09-09T15:55:13",
-                "course": "python",
-                "score": 4,
-                "total": 5,
-                "percentage": 80.0
-            }
-        ],
-        "study_plans": [
-            {
-                "timestamp": "2026-09-09T15:55:51",
-                "course": "java",
-                "plan_id": "7697847b"
-            }
-        ]
+        "quiz_scores": [],
+        "study_plans": []
     }
 }

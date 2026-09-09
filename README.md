@@ -9,7 +9,7 @@ and remembers each student's history — all backed by simple JSON files.
 
 - 📚 **Study materials**: notes stored as plain text in `knowledge_base/`
 - 🤖 **Q&A**: ask a question about a course and get the most relevant notes back
-- 📝 **Quiz generator**: interactive multiple-choice quizzes, auto-graded
+- 📝 **Quiz generator**: interactive multiple-choice quizzes, auto-graded, with **easy / medium / hard / mixed** difficulty selection
 - 📅 **Study planner**: spreads a course's topics across N days
 - 🧠 **Memory**: every student's history, quiz scores, and plans are saved in JSON
 - 🔎 **RAG-style search**: TF/cosine-similarity search over the knowledge base — no external ML libraries needed
@@ -37,7 +37,8 @@ ai_learning_study_assistant/
 │   ├── python.txt
 │   ├── java.txt
 │   ├── database.txt
-│   └── ai_ml.txt
+│   ├── ai_ml.txt
+│   └── web_dev.txt
 │
 ├── agent/
 │   ├── assistant.py           # orchestrator: ties memory + rag + tools together
@@ -86,6 +87,18 @@ This keeps the project dependency-free while still demonstrating the core
 retrieval idea behind RAG. If you want to upgrade it later, `agent/rag.py`
 is the only file you'd need to swap out — e.g. to call a real embeddings
 API or an LLM.
+
+A light-weight word stemmer (`stem()` in `agent/rag.py`) normalizes simple
+plural/verb-ending differences (e.g. "variable" ↔ "variables", "function" ↔
+"functions") before comparing words, so a question doesn't fail to match
+notes just because it uses a slightly different word form.
+
+## 🎯 Quiz difficulty
+
+Every question in `data/quiz_data.json` has a `"difficulty"` field:
+`"easy"`, `"medium"`, or `"hard"`. When taking a quiz you'll be asked to
+pick a difficulty (or "mixed" to draw from all levels), and each question
+is tagged with its level while you answer it.
 
 ## 💾 Data files
 

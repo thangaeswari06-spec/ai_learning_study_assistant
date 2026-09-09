@@ -59,10 +59,10 @@ class StudyAssistant:
         return answer
 
     # ---------- quiz ----------
-    def take_quiz(self, student_id: str, course_id: str, num_questions: int = 5):
-        score, total = self.quiz_tool.run_quiz(course_id, num_questions)
+    def take_quiz(self, student_id: str, course_id: str, num_questions: int = 5, difficulty: str = None):
+        score, total = self.quiz_tool.run_quiz(course_id, num_questions, difficulty)
         if total > 0:
-            self.memory.log_quiz_result(student_id, course_id, score, total)
+            self.memory.log_quiz_result(student_id, course_id, score, total, difficulty)
         return score, total
 
     # ---------- study plan ----------

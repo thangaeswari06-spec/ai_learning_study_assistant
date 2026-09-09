@@ -14,5 +14,9 @@
     "ai_ml": {
         "title": "AI & Machine Learning Notes",
         "source_file": "knowledge_base/ai_ml.txt"
+    },
+    "web_dev": {
+        "title": "Web Development Notes",
+        "source_file": "knowledge_base/web_dev.txt"
     }
 }

@@ -30,9 +30,31 @@ STOPWORDS = {
 }
 
 
+def stem(word: str) -> str:
+    """
+    Very small, dependency-free suffix stripper (not a real linguistic
+    stemmer, just enough to fix the common mismatch where a student asks
+    about "variable" but the notes say "variables", or asks about
+    "functions" but the notes say "function").
+
+    This is the fix for the bug where relevant notes existed in the
+    knowledge base but the Q&A feature reported "nothing found" just
+    because the word form didn't match exactly.
+    """
+    if len(word) > 4 and word.endswith("ies"):
+        return word[:-3] + "y"
+    if len(word) > 3 and word.endswith("s") and not word.endswith("ss"):
+        return word[:-1]
+    if len(word) > 5 and word.endswith("ing"):
+        return word[:-3]
+    if len(word) > 4 and word.endswith("ed"):
+        return word[:-2]
+    return word
+
+
 def tokenize(text: str):
     words = re.findall(r"[a-zA-Z]+", text.lower())
-    return [w for w in words if w not in STOPWORDS and len(w) > 1]
+    return [stem(w) for w in words if w not in STOPWORDS and len(w) > 1]
 
 
 class RAGEngine:

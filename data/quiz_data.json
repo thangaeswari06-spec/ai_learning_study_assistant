@@ -2,13 +2,25 @@
     "python": [
         {
             "question": "Which keyword is used to define a function in Python?",
-            "options": ["func", "def", "function", "lambda"],
-            "answer": "def"
+            "options": [
+                "func",
+                "def",
+                "function",
+                "lambda"
+            ],
+            "answer": "def",
+            "difficulty": "easy"
         },
         {
             "question": "Which data type is immutable in Python?",
-            "options": ["list", "dict", "tuple", "set"],
-            "answer": "tuple"
+            "options": [
+                "list",
+                "dict",
+                "tuple",
+                "set"
+            ],
+            "answer": "tuple",
+            "difficulty": "easy"
         },
         {
             "question": "What does 'OOP' stand for?",
@@ -18,44 +30,87 @@
                 "Open Output Protocol",
                 "Optional Object Parameter"
             ],
-            "answer": "Object Oriented Programming"
+            "answer": "Object Oriented Programming",
+            "difficulty": "medium"
         },
         {
             "question": "Which statement is used to handle exceptions in Python?",
-            "options": ["catch", "try/except", "handle", "rescue"],
-            "answer": "try/except"
+            "options": [
+                "catch",
+                "try/except",
+                "handle",
+                "rescue"
+            ],
+            "answer": "try/except",
+            "difficulty": "medium"
         },
         {
             "question": "Which built-in function opens a file in Python?",
-            "options": ["open()", "file()", "read()", "load()"],
-            "answer": "open()"
+            "options": [
+                "open()",
+                "file()",
+                "read()",
+                "load()"
+            ],
+            "answer": "open()",
+            "difficulty": "hard"
         }
     ],
     "java": [
         {
             "question": "Java code is compiled into which format?",
-            "options": ["Machine code", "Bytecode", "Assembly", "Source map"],
-            "answer": "Bytecode"
+            "options": [
+                "Machine code",
+                "Bytecode",
+                "Assembly",
+                "Source map"
+            ],
+            "answer": "Bytecode",
+            "difficulty": "easy"
         },
         {
             "question": "Which keyword is used to inherit a class in Java?",
-            "options": ["implements", "extends", "inherits", "super"],
-            "answer": "extends"
+            "options": [
+                "implements",
+                "extends",
+                "inherits",
+                "super"
+            ],
+            "answer": "extends",
+            "difficulty": "easy"
         },
         {
             "question": "Which collection allows duplicate elements in Java?",
-            "options": ["Set", "Map", "List", "None of these"],
-            "answer": "List"
+            "options": [
+                "Set",
+                "Map",
+                "List",
+                "None of these"
+            ],
+            "answer": "List",
+            "difficulty": "medium"
         },
         {
             "question": "Which keyword is used for exception handling in Java?",
-            "options": ["try/catch", "handle", "rescue", "on-error"],
-            "answer": "try/catch"
+            "options": [
+                "try/catch",
+                "handle",
+                "rescue",
+                "on-error"
+            ],
+            "answer": "try/catch",
+            "difficulty": "medium"
         },
         {
             "question": "Which feature allows multiple threads to run in Java?",
-            "options": ["Multithreading", "Multitasking", "Multiprocessing", "Parallelism"],
-            "answer": "Multithreading"
+            "options": [
+                "Multithreading",
+                "Multitasking",
+                "Multiprocessing",
+                "Parallelism"
+            ],
+            "answer": "Multithreading",
+            "difficulty": "hard"
         }
     ],
     "database": [
@@ -67,54 +122,177 @@
                 "Sequential Query Language",
                 "Structured Question Language"
             ],
-            "answer": "Structured Query Language"
+            "answer": "Structured Query Language",
+            "difficulty": "easy"
         },
         {
             "question": "Which normal form removes partial dependency?",
-            "options": ["1NF", "2NF", "3NF", "BCNF"],
-            "answer": "2NF"
+            "options": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "BCNF"
+            ],
+            "answer": "2NF",
+            "difficulty": "easy"
         },
         {
             "question": "Which JOIN returns rows only when there is a match in both tables?",
-            "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"],
-            "answer": "INNER JOIN"
+            "options": [
+                "LEFT JOIN",
+                "RIGHT JOIN",
+                "INNER JOIN",
+                "FULL JOIN"
+            ],
+            "answer": "INNER JOIN",
+            "difficulty": "medium"
         },
         {
             "question": "What does 'A' stand for in ACID properties?",
-            "options": ["Atomicity", "Availability", "Accuracy", "Aggregation"],
-            "answer": "Atomicity"
+            "options": [
+                "Atomicity",
+                "Availability",
+                "Accuracy",
+                "Aggregation"
+            ],
+            "answer": "Atomicity",
+            "difficulty": "medium"
         },
         {
             "question": "Which SQL clause is used to filter grouped results?",
-            "options": ["WHERE", "HAVING", "GROUP", "FILTER"],
-            "answer": "HAVING"
+            "options": [
+                "WHERE",
+                "HAVING",
+                "GROUP",
+                "FILTER"
+            ],
+            "answer": "HAVING",
+            "difficulty": "hard"
         }
     ],
     "ai_ml": [
         {
             "question": "Which type of ML uses labeled data?",
-            "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "None"],
-            "answer": "Supervised Learning"
+            "options": [
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "None"
+            ],
+            "answer": "Supervised Learning",
+            "difficulty": "easy"
         },
         {
             "question": "What is the basic unit of a neural network called?",
-            "options": ["Node", "Neuron", "Layer", "Weight"],
-            "answer": "Neuron"
+            "options": [
+                "Node",
+                "Neuron",
+                "Layer",
+                "Weight"
+            ],
+            "answer": "Neuron",
+            "difficulty": "medium"
         },
         {
             "question": "Which technique is used to reduce overfitting?",
-            "options": ["Regularization", "Overtraining", "Bagging only", "None"],
-            "answer": "Regularization"
+            "options": [
+                "Regularization",
+                "Overtraining",
+                "Bagging only",
+                "None"
+            ],
+            "answer": "Regularization",
+            "difficulty": "medium"
         },
         {
             "question": "NLP is mainly concerned with which type of data?",
-            "options": ["Images", "Text/Language", "Audio only", "Video"],
-            "answer": "Text/Language"
+            "options": [
+                "Images",
+                "Text/Language",
+                "Audio only",
+                "Video"
+            ],
+            "answer": "Text/Language",
+            "difficulty": "hard"
         },
         {
             "question": "Which of these is an unsupervised learning algorithm?",
-            "options": ["Linear Regression", "K-Means Clustering", "Decision Tree", "Logistic Regression"],
-            "answer": "K-Means Clustering"
+            "options": [
+                "Linear Regression",
+                "K-Means Clustering",
+                "Decision Tree",
+                "Logistic Regression"
+            ],
+            "answer": "K-Means Clustering",
+            "difficulty": "hard"
+        }
+    ],
+    "web_dev": [
+        {
+            "question": "Which tag is used to create a hyperlink in HTML?",
+            "options": [
+                "<link>",
+                "<a>",
+                "<href>",
+                "<nav>"
+            ],
+            "answer": "<a>",
+            "difficulty": "easy"
+        },
+        {
+            "question": "Which CSS property is used to change text color?",
+            "options": [
+                "font-color",
+                "text-color",
+                "color",
+                "background-color"
+            ],
+            "answer": "color",
+            "difficulty": "easy"
+        },
+        {
+            "question": "Which keyword declares a block-scoped, reassignable variable in JavaScript?",
+            "options": [
+                "const",
+                "var",
+                "let",
+                "static"
+            ],
+            "answer": "let",
+            "difficulty": "medium"
+        },
+        {
+            "question": "Which CSS layout model arranges items in a single row or column and distributes space between them?",
+            "options": [
+                "Grid",
+                "Flexbox",
+                "Float",
+                "Table"
+            ],
+            "answer": "Flexbox",
+            "difficulty": "medium"
+        },
+        {
+            "question": "Which DOM method attaches a function to run when an element is clicked?",
+            "options": [
+                "onClick()",
+                "addEventListener()",
+                "bindEvent()",
+                "attachHandler()"
+            ],
+            "answer": "addEventListener()",
+            "difficulty": "hard"
+        },
+        {
+            "question": "In responsive design, which CSS feature applies different styles based on viewport width?",
+            "options": [
+                "Pseudo-classes",
+                "Media queries",
+                "CSS variables",
+                "Selectors"
+            ],
+            "answer": "Media queries",
+            "difficulty": "hard"
         }
     ]
 }

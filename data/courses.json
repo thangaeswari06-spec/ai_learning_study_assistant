@@ -43,5 +43,16 @@
             "NLP Basics"
         ],
         "difficulty": "Intermediate"
+    },
+    "web_dev": {
+        "name": "Web Development (HTML, CSS, JavaScript)",
+        "topics": [
+            "HTML Basics",
+            "CSS Styling & Layout",
+            "JavaScript Fundamentals",
+            "DOM Manipulation",
+            "Responsive Design"
+        ],
+        "difficulty": "Beginner to Intermediate"
     }
 }
