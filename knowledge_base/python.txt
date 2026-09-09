@@ -1,0 +1,15 @@
+Python is a high-level, interpreted programming language known for its simple and readable syntax.
+
+Variables in Python do not need explicit declaration of type. Python automatically detects the data type at runtime based on the value assigned. Common data types include int, float, str, bool, list, tuple, dict, and set.
+
+Control flow in Python is managed using if, elif, and else statements for decision making, and for and while loops for iteration. Indentation is used instead of curly braces to define blocks of code.
+
+Functions in Python are defined using the def keyword. A function can accept parameters, have default values, and return a value using the return statement. Python also supports anonymous functions using the lambda keyword.
+
+Object Oriented Programming in Python revolves around classes and objects. A class is defined using the class keyword. It supports concepts like inheritance, encapsulation, polymorphism, and abstraction. The __init__ method acts as a constructor.
+
+File handling in Python is done using the open() function, which can open files in modes such as read (r), write (w), append (a), and binary (b). It is good practice to use the 'with' statement so that files are closed automatically.
+
+Exception handling in Python uses try, except, else, and finally blocks. This allows a program to catch and handle runtime errors gracefully instead of crashing. Common exceptions include ValueError, TypeError, ZeroDivisionError, and FileNotFoundError.
+
+Python has a rich standard library and a huge ecosystem of third-party packages available through pip, making it popular for web development, data science, automation, and artificial intelligence.

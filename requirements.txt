@@ -1,0 +1,7 @@
+# AI Learning & Study Assistant
+# This project is built entirely with the Python standard library.
+# No external packages are required to run it.
+#
+# (Kept here intentionally so the project structure matches a typical
+#  Python application layout, and as a place to add packages later,
+#  e.g. if you plug in a real LLM/embeddings API.)

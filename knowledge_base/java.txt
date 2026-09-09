@@ -1,0 +1,13 @@
+Java is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible.
+
+Java code is first compiled into an intermediate format called bytecode by the Java compiler (javac). This bytecode is then executed by the Java Virtual Machine (JVM), which is why Java is described as "write once, run anywhere".
+
+Object Oriented Programming concepts in Java include classes, objects, inheritance, polymorphism, encapsulation, and abstraction. The 'extends' keyword is used for class inheritance, and 'implements' is used for interfaces.
+
+The Java Collections Framework provides classes like ArrayList, LinkedList, HashSet, TreeSet, HashMap, and TreeMap to store and manipulate groups of objects. Lists allow duplicate elements, while Sets do not.
+
+Exception handling in Java is done using try, catch, and finally blocks. Java exceptions are divided into checked exceptions and unchecked exceptions. The 'throw' keyword is used to explicitly raise an exception.
+
+Multithreading in Java allows concurrent execution of two or more threads for maximum utilization of the CPU. Threads can be created either by extending the Thread class or implementing the Runnable interface.
+
+Java is widely used in enterprise applications, Android app development, and large-scale backend systems due to its portability, strong memory management, and mature ecosystem.

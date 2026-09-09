@@ -1,0 +1,18 @@
+{
+    "python": {
+        "title": "Python Programming Notes",
+        "source_file": "knowledge_base/python.txt"
+    },
+    "java": {
+        "title": "Java Programming Notes",
+        "source_file": "knowledge_base/java.txt"
+    },
+    "database": {
+        "title": "Database Management Notes",
+        "source_file": "knowledge_base/database.txt"
+    },
+    "ai_ml": {
+        "title": "AI & Machine Learning Notes",
+        "source_file": "knowledge_base/ai_ml.txt"
+    }
+}

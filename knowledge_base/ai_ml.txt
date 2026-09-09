@@ -1,0 +1,13 @@
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think, learn, and make decisions.
+
+Machine Learning (ML) is a subset of AI that allows systems to learn patterns from data without being explicitly programmed. The three main types of machine learning are Supervised Learning, which uses labeled data; Unsupervised Learning, which finds patterns in unlabeled data; and Reinforcement Learning, which learns through rewards and penalties.
+
+Neural networks are computing systems inspired by the human brain. The basic unit of a neural network is called a neuron, and neurons are organized into layers: an input layer, one or more hidden layers, and an output layer. Weights and biases determine how information flows through the network.
+
+Model training involves feeding data into an algorithm so it can learn patterns, while model evaluation measures how well the trained model performs using metrics like accuracy, precision, recall, and F1-score. Overfitting happens when a model performs well on training data but poorly on new data; regularization techniques help reduce overfitting.
+
+K-Means Clustering is a popular unsupervised learning algorithm that groups data points into a fixed number of clusters based on similarity.
+
+Natural Language Processing (NLP) is a branch of AI focused on enabling computers to understand, interpret, and generate human language. Common NLP tasks include text classification, sentiment analysis, machine translation, and chatbots.
+
+AI and ML are widely applied in recommendation systems, image recognition, fraud detection, autonomous vehicles, and virtual assistants.

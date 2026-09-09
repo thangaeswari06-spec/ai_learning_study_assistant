@@ -1,0 +1,47 @@
+{
+    "python": {
+        "name": "Python Programming",
+        "topics": [
+            "Variables & Data Types",
+            "Control Flow",
+            "Functions",
+            "OOP in Python",
+            "File Handling",
+            "Exception Handling"
+        ],
+        "difficulty": "Beginner to Intermediate"
+    },
+    "java": {
+        "name": "Java Programming",
+        "topics": [
+            "Java Basics",
+            "OOP Concepts",
+            "Collections Framework",
+            "Exception Handling",
+            "Multithreading"
+        ],
+        "difficulty": "Beginner to Intermediate"
+    },
+    "database": {
+        "name": "Database Management (SQL)",
+        "topics": [
+            "ER Diagrams",
+            "Normalization",
+            "SQL Queries",
+            "Joins",
+            "Transactions & ACID"
+        ],
+        "difficulty": "Beginner to Intermediate"
+    },
+    "ai_ml": {
+        "name": "AI & Machine Learning",
+        "topics": [
+            "Introduction to AI",
+            "Types of Machine Learning",
+            "Neural Networks",
+            "Model Training & Evaluation",
+            "NLP Basics"
+        ],
+        "difficulty": "Intermediate"
+    }
+}

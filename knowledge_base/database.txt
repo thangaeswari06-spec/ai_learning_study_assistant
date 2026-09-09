@@ -1,0 +1,13 @@
+A database is an organized collection of structured data stored electronically in a computer system, typically managed by a Database Management System (DBMS).
+
+An Entity-Relationship (ER) diagram is a visual representation of entities and the relationships between them in a database design. It helps in planning the structure of a database before implementation.
+
+Normalization is the process of organizing data to reduce redundancy and improve data integrity. Common normal forms include First Normal Form (1NF), which removes repeating groups, Second Normal Form (2NF), which removes partial dependency, and Third Normal Form (3NF), which removes transitive dependency.
+
+SQL (Structured Query Language) is used to communicate with relational databases. Common SQL commands include SELECT, INSERT, UPDATE, DELETE, CREATE, and DROP.
+
+Joins in SQL are used to combine rows from two or more tables based on a related column. INNER JOIN returns matching rows in both tables, LEFT JOIN returns all rows from the left table plus matches, RIGHT JOIN returns all rows from the right table plus matches, and FULL JOIN returns all rows when there is a match in either table.
+
+Transactions in a database follow the ACID properties: Atomicity ensures a transaction is all-or-nothing, Consistency ensures the database remains valid before and after the transaction, Isolation ensures concurrent transactions do not interfere with each other, and Durability ensures completed transactions persist even after a system failure.
+
+The GROUP BY clause groups rows sharing a property, while the HAVING clause filters those grouped results, unlike WHERE which filters rows before grouping.
