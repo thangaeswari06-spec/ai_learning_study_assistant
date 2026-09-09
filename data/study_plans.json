@@ -1,1 +1,33 @@
-{}
+{
+    "e5cedefd": {
+        "plan_id": "e5cedefd",
+        "student_id": "thangaeswari06@gmail.com",
+        "course": "python",
+        "course_name": "Python Programming",
+        "created_at": "2026-09-09T21:26:02",
+        "num_days": 7,
+        "schedule": {
+            "Day 1": [
+                "Variables & Data Types"
+            ],
+            "Day 2": [
+                "Control Flow"
+            ],
+            "Day 3": [
+                "Functions"
+            ],
+            "Day 4": [
+                "OOP in Python"
+            ],
+            "Day 5": [
+                "File Handling"
+            ],
+            "Day 6": [
+                "Exception Handling"
+            ],
+            "Day 7": [
+                "Revision / Practice problems"
+            ]
+        }
+    }
+}
